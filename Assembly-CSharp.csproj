@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\RandomSpawner.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\Schweben.cs" />
+    <Compile Include="Assets\Scripts\VRClickHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

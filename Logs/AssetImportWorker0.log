@@ -1,0 +1,702 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Yago/Ein Raum mit WÃ¤nden, in denen 20 Kugeln schweben
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51566
+Successfully changed project path to: C:/Users/Yago/Ein Raum mit WÃ¤nden, in denen 20 Kugeln schweben
+C:/Users/Yago/Ein Raum mit WÃ¤nden, in denen 20 Kugeln schweben
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4740]  Target information:
+
+Player connection [4740]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2809218870 [EditorId] 2809218870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OO13JFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4740] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 8.47 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Yago/Ein Raum mit WÃ¤nden, in denen 20 Kugeln schweben/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16368 MB
+    Driver:   32.0.21013.4013
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004095 seconds.
+- Loaded All Assemblies, in  0.214 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.174 seconds
+Domain Reload Profiling: 387ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.423 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 788ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (55.1 KB). Loaded Objects now: 3926.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 2.423000 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.037400 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 525352.885912 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab
+  artifactKey: Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab using Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:298)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:299)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:300)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:301)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Pose_Source_Map`1<Valve.VR.SteamVR_Action_Pose_Source>, Valve.VR.SteamVR_Action_Pose_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Pose> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:302)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Skeleton_Source_Map, Valve.VR.SteamVR_Action_Skeleton_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Skeleton> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:303)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Skeleton_Source_Map, Valve.VR.SteamVR_Action_Skeleton_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Skeleton> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:304)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Single_Source_Map, Valve.VR.SteamVR_Action_Single_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Single> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:305)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:306)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:307)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:308)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Vector2_Source_Map, Valve.VR.SteamVR_Action_Vector2_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Vector2> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:310)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:311)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Vector2_Source_Map, Valve.VR.SteamVR_Action_Vector2_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Vector2> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:312)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Single_Source_Map, Valve.VR.SteamVR_Action_Single_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Single> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:313)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:314)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:315)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Pose_Source_Map`1<Valve.VR.SteamVR_Action_Pose_Source>, Valve.VR.SteamVR_Action_Pose_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Pose> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:316)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.JoeJeffController:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.cs:13)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e7c8dacf447674faf380c5b35b97cc4') in 0.293594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Grenade/ModalThrowable.prefab
+  artifactKey: Guid(a7c2b37096983fb40addeabf8a2aefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Grenade/ModalThrowable.prefab using Guid(a7c2b37096983fb40addeabf8a2aefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '706b41dcf666c89f64cb2a3fb80b8ccc') in 0.064790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab
+  artifactKey: Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab using Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d9a90de79de1719d3cce89ed6737507') in 0.096580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireSmall.prefab
+  artifactKey: Guid(9471d2206e57ca246a4bf982f3c29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireSmall.prefab using Guid(9471d2206e57ca246a4bf982f3c29c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 5.22 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'fafe8498abb3785b6799f39247b20592') in 0.087949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/Button.prefab
+  artifactKey: Guid(88075a54c7fb1484ba25db394b612917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/Button.prefab using Guid(88075a54c7fb1484ba25db394b612917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4182e7e93b783cf162d791fb3422b54a') in 0.012118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab
+  artifactKey: Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab using Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3.68 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '0864ad12d1cf6cf240bc4def3ff5c15a') in 0.381045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 304
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_left.prefab
+  artifactKey: Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_left.prefab using Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b121592bd0fa7aac2ce04703a450df38') in 0.177847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab
+  artifactKey: Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArcheryWeeble.prefab using Guid(7fe1fef3cfad86946b3a549d6934330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 4.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'adb20dea9a9a3dd2630ab8202a1e62fb') in 0.045004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab
+  artifactKey: Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab using Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cca1592d44e578bd6c8c10dd213c942') in 0.184012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Weird Table.prefab
+  artifactKey: Guid(57e966daf1b02b746ac71933c6ef56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Weird Table.prefab using Guid(57e966daf1b02b746ac71933c6ef56b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73d6ee4c5e497d481c6ac625ab132ff9') in 0.028089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab
+  artifactKey: Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab using Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2637969d0e16e95e65cbdc21ca9173ca') in 0.045891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e5df4e2083cdd4518147d877fce2bc6') in 0.018190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
+  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4be19265cd8fe1fc679ff3c6177b8b70') in 0.017617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Longbow.prefab
+  artifactKey: Guid(f1f5f898fbfdb80478825ce9b01fe8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Longbow.prefab using Guid(f1f5f898fbfdb80478825ce9b01fe8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07ca51ecf45ab5dc95fb95d82c8095') in 0.068197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 496
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArrowHand.prefab
+  artifactKey: Guid(d410d7126dd411c4ea651fc94eae9202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/ArrowHand.prefab using Guid(d410d7126dd411c4ea651fc94eae9202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abce1842a5662697e36d8d63df868bc7') in 0.050377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 496
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eba9976981b8722350a82ea1de2353c') in 0.002988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

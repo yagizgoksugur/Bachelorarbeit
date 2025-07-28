@@ -15,6 +15,7 @@ public class ControllerClickHandler : MonoBehaviour
     void Update()
     {
         // Wenn der Trigger einmal gedrückt wird
+        Debug.DrawRay(transform.position, transform.forward * 10f, Color.red);
         if (triggerAction.GetStateDown(handType))
         {
             RaycastHit hit;
@@ -22,6 +23,7 @@ public class ControllerClickHandler : MonoBehaviour
             // Schieße einen unsichtbaren Strahl nach vorne
             if (Physics.Raycast(controllerPose.transform.position, controllerPose.transform.forward, out hit, 100f))
             {
+                 Debug.Log("Hit object: " + hit.collider.name);
                 // Wenn das getroffene Objekt ein ColorChanger-Script hat
                 ColorChanger colorChanger = hit.collider.GetComponent<ColorChanger>();
 

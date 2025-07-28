@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8049984051981602649}
   - component: {fileID: 2735525247060139902}
   - component: {fileID: 6092718332937548868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kugeln
   m_TagString: Untagged
   m_Icon: {fileID: 0}

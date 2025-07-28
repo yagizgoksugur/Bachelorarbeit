@@ -1,0 +1,1337 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Yago/Ein Raum mit Wänden, in denen 20 Kugeln schweben
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51566
+Successfully changed project path to: C:/Users/Yago/Ein Raum mit Wänden, in denen 20 Kugeln schweben
+C:/Users/Yago/Ein Raum mit Wänden, in denen 20 Kugeln schweben
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6248]  Target information:
+
+Player connection [6248]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2722280472 [EditorId] 2722280472 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OO13JFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6248] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 7.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Yago/Ein Raum mit Wänden, in denen 20 Kugeln schweben/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD  Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16368 MB
+    Driver:   32.0.21013.4013
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004057 seconds.
+- Loaded All Assemblies, in  0.207 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.179 seconds
+Domain Reload Profiling: 386ms
+	BeginReloadAssembly (64ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (62ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.408 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (55.0 KB). Loaded Objects now: 3926.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 2.620400 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.141100 ms MarkObjects: 2.160700 ms  DeleteObjects: 0.077500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 525352.865246 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Balloon.prefab
+  artifactKey: Guid(8e13c6e5a21aeea4db3c25ef0e529308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/Balloon.prefab using Guid(8e13c6e5a21aeea4db3c25ef0e529308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '10653f0cbda2e07a73487cf289010f1a') in 0.405260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Wall.prefab
+  artifactKey: Guid(4f8a76d2be4d1cb40a9aa32921fcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Wall.prefab using Guid(4f8a76d2be4d1cb40a9aa32921fcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2da01a24c16dd5c38a46d438ac11d247') in 0.165182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/TargetHitEffect.prefab
+  artifactKey: Guid(ada35c93b68ad004d9b4e7bd686cf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/TargetHitEffect.prefab using Guid(ada35c93b68ad004d9b4e7bd686cf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'c5ff2028d1e50b2023b83092e2ee80ba') in 0.397004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Table_Small.prefab
+  artifactKey: Guid(390115dc286a84d4b82719333a0ff570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Table_Small.prefab using Guid(390115dc286a84d4b82719333a0ff570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '460d68220009e680984427a24b4fe0ca') in 0.015965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/Prefabs/[Status].prefab
+  artifactKey: Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[Status].prefab using Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec80c14f9c499d0b9d0ecff80497b9f5') in 0.021295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowOutline.prefab
+  artifactKey: Guid(b9d299b8c6aa86242bec9a060f7e2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowOutline.prefab using Guid(b9d299b8c6aa86242bec9a060f7e2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97424c2c93c6d49373de7efff11d56cf') in 0.049314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Prefabs/TeleportPoint.prefab
+  artifactKey: Guid(73ac470d3d909d645a6c89a4664b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Prefabs/TeleportPoint.prefab using Guid(73ac470d3d909d645a6c89a4664b6849) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb4e863c0f4b4e6e3457501e5ffacb35') in 0.058181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Squishy/Squishy.prefab
+  artifactKey: Guid(4d7627d70abb4e247b7d958e6634b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Squishy/Squishy.prefab using Guid(4d7627d70abb4e247b7d958e6634b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:298)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:299)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:300)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:301)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Pose_Source_Map`1<Valve.VR.SteamVR_Action_Pose_Source>, Valve.VR.SteamVR_Action_Pose_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Pose> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:302)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Skeleton_Source_Map, Valve.VR.SteamVR_Action_Skeleton_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Skeleton> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:303)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Skeleton_Source_Map, Valve.VR.SteamVR_Action_Skeleton_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Skeleton> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:304)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Single_Source_Map, Valve.VR.SteamVR_Action_Single_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Single> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:305)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:306)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:307)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:308)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Vector2_Source_Map, Valve.VR.SteamVR_Action_Vector2_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Vector2> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:310)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:311)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Vector2_Source_Map, Valve.VR.SteamVR_Action_Vector2_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Vector2> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:312)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Single_Source_Map, Valve.VR.SteamVR_Action_Single_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Single> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:313)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:314)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Boolean_Source_Map, Valve.VR.SteamVR_Action_Boolean_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Boolean> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:315)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+Could not find match for direction: in
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Valve.VR.SteamVR_Action_Source_Map:GetActionDirection () (at Assets/SteamVR/Input/SteamVR_Action.cs:690)
+Valve.VR.SteamVR_Action_Source_Map:PreInitialize (Valve.VR.SteamVR_Action,string,bool) (at Assets/SteamVR/Input/SteamVR_Action.cs:636)
+Valve.VR.SteamVR_Action`2<Valve.VR.SteamVR_Action_Pose_Source_Map`1<Valve.VR.SteamVR_Action_Pose_Source>, Valve.VR.SteamVR_Action_Pose_Source>:PreInitialize (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:100)
+Valve.VR.SteamVR_Action:Create<Valve.VR.SteamVR_Action_Pose> (string) (at Assets/SteamVR/Input/SteamVR_Action.cs:294)
+Valve.VR.SteamVR_Actions:PreInitActions () (at Assets/SteamVR_Input/SteamVR_Input_Actions.cs:316)
+Valve.VR.SteamVR_Actions:PreInitialize () (at Assets/SteamVR_Input/SteamVR_Input_Initialization.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+Valve.VR.SteamVR_Input:FindPreinitializeMethod () (at Assets/SteamVR/Input/SteamVR_Input.cs:134)
+Valve.VR.SteamVR_Input:.cctor () (at Assets/SteamVR/Input/SteamVR_Input.cs:114)
+Valve.VR.InteractionSystem.Sample.SquishyToy:.ctor () (at Assets/SteamVR/InteractionSystem/Samples/Squishy/SquishyToy.cs:16)
+
+(Filename: Assets/SteamVR/Input/SteamVR_Action.cs Line: 690)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3dd9c21c9e89ce68b1acaa119823f1bc') in 0.275206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 197
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab
+  artifactKey: Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab using Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '322d88db538c1ce6947506f0ba925690') in 0.155209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireTiny.prefab
+  artifactKey: Guid(a6990c59ffac7cf4b87f644ab4782007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs/FireTiny.prefab using Guid(a6990c59ffac7cf4b87f644ab4782007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2cae19cbf44786a8f206e98d37d7a955') in 0.014588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/Buggy.prefab
+  artifactKey: Guid(1e914d8e31fa95b488c87df17e68d504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/Buggy.prefab using Guid(1e914d8e31fa95b488c87df17e68d504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f2c96581e040a0f6a1dcb5ff47a01d5') in 0.143179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.272 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (29.0 KB). Loaded Objects now: 3947.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 2.170700 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.079500 ms MarkObjects: 1.854000 ms  DeleteObjects: 0.034100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.683837 seconds.
+  path: Assets/Scripts/ControllerClickHandler.cs
+  artifactKey: Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControllerClickHandler.cs using Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a8fe2599400f978f407992412a28ef5') in 0.001342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.310 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (29.0 KB). Loaded Objects now: 3951.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 2.260400 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.081800 ms MarkObjects: 1.939200 ms  DeleteObjects: 0.031100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 592.039174 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9d324f60017d641f0b235f8529b35ba') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.895149 seconds.
+  path: Assets/Scripts/VRClickHandler.cs
+  artifactKey: Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VRClickHandler.cs using Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd6a62f78617cce4c70c619958885912') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.878692 seconds.
+  path: Assets/Scripts/VRClickHandler.cs
+  artifactKey: Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VRClickHandler.cs using Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '991de49b65443e6fd931fe554b80d4cb') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.614005 seconds.
+  path: Assets/Scripts/ControllerClickHandler.cs
+  artifactKey: Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControllerClickHandler.cs using Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '673f4cd3c30375630eca0cfbf281be03') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.283 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (262ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (29.6 KB). Loaded Objects now: 3955.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 2.484800 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.169300 ms  DeleteObjects: 0.033000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0bb52550ed2d7e7affb6f867085a637b -> 5565ad58155be53020d39b365697103c
+========================================================================
+Received Import Request.
+  Time since last request: 16.555072 seconds.
+  path: Assets/Scripts/VRClickHandler.cs
+  artifactKey: Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VRClickHandler.cs using Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5478e545c890140f0e4569eac18f1956') in 0.001433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.274 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (597ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (29.0 KB). Loaded Objects now: 3959.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 2.560400 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.216900 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0bb52550ed2d7e7affb6f867085a637b -> 5565ad58155be53020d39b365697103c
+========================================================================
+Received Import Request.
+  Time since last request: 115.522126 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2ed4f3eafcc2bc862c440eaeb831565') in 0.007346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.416435 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70bb567478df8daf630fb9a2b400ea7d') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 119.993337 seconds.
+  path: Assets/Prefabs/Kugeln.prefab
+  artifactKey: Guid(7532e19ffb3e2c541991207d93ece1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kugeln.prefab using Guid(7532e19ffb3e2c541991207d93ece1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c967f8e85d8a0185e359086c301754f') in 0.045887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.274 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.624 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (624ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.1 KB). Loaded Objects now: 3965.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 2.508500 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.132100 ms  DeleteObjects: 0.041200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0bb52550ed2d7e7affb6f867085a637b -> 5565ad58155be53020d39b365697103c
+========================================================================
+Received Import Request.
+  Time since last request: 72.975967 seconds.
+  path: Assets/Prefabs/Kugeln.prefab
+  artifactKey: Guid(7532e19ffb3e2c541991207d93ece1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kugeln.prefab using Guid(7532e19ffb3e2c541991207d93ece1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c72b4d9e2494a9b95af6b619d59f0852') in 0.040756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.275 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 887ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.1 KB). Loaded Objects now: 3969.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 2.603700 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.295600 ms  DeleteObjects: 0.033600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0bb52550ed2d7e7affb6f867085a637b -> 5565ad58155be53020d39b365697103c
+========================================================================
+Received Import Request.
+  Time since last request: 262.441767 seconds.
+  path: Assets/Scripts/ColorChanger.cs
+  artifactKey: Guid(43a37f1c662d8cd458f93420f88d483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ColorChanger.cs using Guid(43a37f1c662d8cd458f93420f88d483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec991eb32ec25067290fcb425e5a895a') in 0.001296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 78.784329 seconds.
+  path: Assets/Scripts/ColorChanger.cs
+  artifactKey: Guid(43a37f1c662d8cd458f93420f88d483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ColorChanger.cs using Guid(43a37f1c662d8cd458f93420f88d483d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd0ba53faa3e240b21da82a92de0a8e0') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.287 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 972ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.2 KB). Loaded Objects now: 3974.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 2.280800 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.095300 ms MarkObjects: 1.935600 ms  DeleteObjects: 0.030000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3d31cb01b7eb80a23a292d6ba7507b5f -> 5565ad58155be53020d39b365697103c
+========================================================================
+Received Import Request.
+  Time since last request: 6.815959 seconds.
+  path: Assets/Scripts/ControllerClickHandler.cs
+  artifactKey: Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControllerClickHandler.cs using Guid(78157980a49458447981d4e1d5e3d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e840da472493ada2283782fd0a612e03') in 0.001317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 248.183902 seconds.
+  path: Assets/Scripts/VRClickHandler.cs
+  artifactKey: Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VRClickHandler.cs using Guid(6d97efb3d45b09b48a5d883d28db7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0be3f1b56422f9a53d2e32b308a94604') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.327 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.2 KB). Loaded Objects now: 3978.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 2.916800 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.037500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VRClickHandler.cs: 64b0b229c5e04ff7b2b8e0d968104824 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3d31cb01b7eb80a23a292d6ba7507b5f -> 5565ad58155be53020d39b365697103c
